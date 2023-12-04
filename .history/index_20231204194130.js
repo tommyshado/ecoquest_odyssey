@@ -19,7 +19,7 @@ app.set("views", "./views");
 dotenv.config();
 
 const connection = {
-    connectionString: process.env.ecoquest_odyssey_url,
+    connectionString: process.env.expense_tracker_URL,
     ssl: { rejectUnauthorized: false },
   };
   

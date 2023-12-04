@@ -18,15 +18,7 @@ app.set("views", "./views");
 
 dotenv.config();
 
-const connection = {
-    connectionString: process.env.ecoquest_odyssey_url,
-    ssl: { rejectUnauthorized: false },
-  };
-  
- 
-  const pgp = pgPromise();
-  
-  const db = pgp(connection);
+
 
 
 const PORT = process.env.PORT || 3014;
